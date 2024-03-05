@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49ae6381-ec0f-4691-a2b1-422c557819d4" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Modules/PayloadManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/pojos/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/pojos/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/pojos/Bookingdates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/actions/AssertActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testcases/crud/TCCreateBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testcases/end2end/TC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/UtilExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData5x.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/testcases/crud/TCCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/testcases/crud/TCCreateBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testngXMLs/testng_crud_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testngXMLs/testng_crud_post.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -54,12 +49,21 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.<default> (1).executor": "Run",
     "TestNG.<default>.executor": "Run",
+    "TestNG.C:/Users/Rohit/IdeaProjects/APIAutomationFrameworkResuAssured/src/test/testngXMLs/testng_crud_post.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Rohit/IdeaProjects/APIAutomationFrameworkResuAssured/src/test/resources"
+    "last_opened_file_path": "C:/Users/Rohit/IdeaProjects/APIAutomationFrameworkResuAssured/src/test/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.33333334",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.testcases.crud" />
+      <recent name="org.example.base" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Rohit\IdeaProjects\APIAutomationFrameworkResuAssured\src\test\resources" />
       <recent name="C:\Users\Rohit\IdeaProjects\APIAutomationFrameworkResuAssured\src\main\java\org\example\payloads" />
@@ -72,7 +76,7 @@
       <recent name="org.example.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt; (1)">
+  <component name="RunManager" selected="TestNG.C:/Users/Rohit/IdeaProjects/APIAutomationFrameworkResuAssured/src/test/testngXMLs/testng_crud_post.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="APIAutomationFrameworkRestAssured" />
       <method v="2">
@@ -82,6 +86,16 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="APIAutomationFrameworkRestAssured" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Rohit/IdeaProjects/APIAutomationFrameworkResuAssured/src/test/testngXMLs/testng_crud_post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testngXMLs/testng_crud_post.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Rohit/IdeaProjects/APIAutomationFrameworkResuAssured/src/test/testngXMLs/testng_crud_post.xml" />
         <item itemvalue="TestNG.&lt;default&gt; (1)" />
         <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
@@ -116,6 +131,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
         <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
       </set>
     </attachedChunks>
@@ -137,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709626410716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1709631362155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709631362155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
